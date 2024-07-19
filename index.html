@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Task</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form  onsubmit="return validate()">
+        <h2 style="text-align: center;font-weight: bolder;">Create User</h2>
+
+      <div>
+        <label for="first">First Name</label>
+        <input type="text" name="first" required id="first" />
+      </div>
+      <div>
+        <label for="last">Last Name</label>
+        <input type="text" name="last" required id="last" />
+      </div>
+      <div>
+        <label for="phone">Phone number</label>
+        <input type="text" name="phone" required id="phone" />
+      </div>
+      <div>
+        <label for="city">City</label>
+        <input type="text" name="city" required id="city" />
+      </div>
+      <div>
+        <label for="address">Address</label>
+        <textarea rows="5" name="address"  id="address" ></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 300;
+}
+
+
+
+body{
+    width: 100wv;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+}
+
+form{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.4rem;
+    
+}
+
+form div{ 
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+input{
+    width: 40vh;
+    padding:0.5rem 0.5rem;
+}
+
+button{
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem 0rem;
+    cursor: pointer;
+}
+
+textarea{
+    resize: vertical;
+}
